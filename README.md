@@ -1,5 +1,5 @@
 # Windows-x86_64-Reverse-TCP-Shellcode
-Windows/x86_64 Reverse TCP Shellcode (192.168.201.11:4444) (330 Bytes)
+Null free Windows/x86_64 Reverse TCP Shellcode (192.168.201.11:4444) (330 Bytes)
 
 The complete Write-up can be found at the following links 
 
