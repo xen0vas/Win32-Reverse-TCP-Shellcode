@@ -1,6 +1,6 @@
-# win32 Reverse TCP Shellcode
+# Win32 Reverse TCP Shellcode
 
-win32 Reverse TCP Shellcode (192.168.201.11:4444) (330 Bytes)
+Win32 Reverse TCP Shellcode (192.168.201.11:4444) (330 Bytes)
 
 The complete Writeup can be found at the following links 
 
