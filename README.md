@@ -1,5 +1,7 @@
 # Win32 Reverse TCP Shellcode
 
+![twitter](https://img.shields.io/twitter/follow/xen0vas.svg?style=social)
+
 Win32 Reverse TCP Shellcode (192.168.201.11:4444) (421 Bytes)
 
 The complete Writeup can be found at the following links 
