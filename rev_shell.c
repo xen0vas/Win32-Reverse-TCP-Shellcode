@@ -1,5 +1,5 @@
 /*
-;; Title: Windows Reverse TCP shellcode (192.168.201.11:4444) (330 Bytes)
+;; Title: Windows Reverse TCP shellcode (192.168.201.11:4444) (420 Bytes)
 ;; Date: 09.12.2021
 ;; Author: Xenofon Vassilakopoulos
 ;; Tested on: Windows/x64 - 10.0.19043 N/A Build 19043 
